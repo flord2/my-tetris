@@ -1,8 +1,10 @@
 @charset "utf-8";
+<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 
 body {
 	color: #DEDEE2;
-	font-family: Lato Hairline;
+	font-family: Lato Hairline, Lato;
 	font-size: .75em;
 	text-align: center;
 	background-color: #DEDEE2;
@@ -13,7 +15,7 @@ body {
 }
 
 .title {
-	font-family: Brusher;
+	font-family: Brusher, Caveat Brush;
 	color: #3A3042;
 	text-align: center;
 	font-size: 5em;
