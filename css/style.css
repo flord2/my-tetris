@@ -1,10 +1,10 @@
 @charset "utf-8";
-<link href="https://fonts.googleapis.com/css?family=Caveat+Brush" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+@import url(https://fonts.googleapis.com/css?family=Caveat+Brush");
+@import url(https://fonts.googleapis.com/css?family=Lato");
 
 body {
 	color: #DEDEE2;
-	font-family: Lato Hairline, Lato;
+	font-family: Lato;
 	font-size: .75em;
 	text-align: center;
 	background-color: #DEDEE2;
