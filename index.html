@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My TETRIS</title>
+	<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+	
+	<audio id="musica_fondo"src=audio/soun5d.mp3 autoplay loop></audio>*/
+
+	<div class = 'title'> My tetris </div> 
+	<br>
+	<br>
+
+	<div id="background_tetris" class="background_tetris">
+		<div id="UI-MainMenu" class="UI-MainMenu">
+			<button onclick="gameStart();" class="btn"> PLAY </button>
+		</div>
+		<div id="UI-Pauser" class="UI-Pauser">
+			<button onclick="fPause(false)" class="btn"> RESTART </button>
+		</div>
+	</div>
+
+	<div id="body" class="body">
+		<div class="positions right">
+			<canvas id = 'tetris' width="200" height="400"></canvas>
+		</div>
+		<div class="positions"> 
+			<div class="cajaNext"> NEXT <br>
+				<canvas id = 'nextPiece' width="100" height="100"></canvas>
+			</div>
+			<br>
+			<div class="cajasLateral"> SCORE
+				<div id = 'score'></div>
+			</div>
+			<div class="cajasLateral"> LINES
+				<div id = 'lines'></div>
+			</div>
+			<div class="cajasLateral"> LEVEL
+				<div id = 'level'></div>
+			</div>
+			<div class="btn_group"> 
+				<button onclick="fPause(true);">
+					PAUSE
+				</button>
+			</div>
+			
+		</div>
+		
+	</div>
+
+	
+
+
+	<script src= js/tetris.js></script>
+
+</body>
+</html>
