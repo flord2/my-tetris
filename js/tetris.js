@@ -10,13 +10,13 @@ const contextNext = canvasNext.getContext('2d');
 const grid = createMatriz(10, 20);
 const colors = [
 		null,
-		'#331832',
-		'#922D50',
-		'#D81E5B',
-		'#3C1B43',
-		'#501537',
-		'#D80048',
-		'#190B42',
+		'#DB9D47',
+		'#FF784F',
+		'#FFE19C',
+		'#F9FFC6',
+		'#625170',
+		'#522775',
+		'#6C2775'
 ];
 const player = {
 	pos: {x: 0, y:0},
