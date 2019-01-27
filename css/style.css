@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+body {
+	color: #DEDEE2;
+	font-family: Lato Hairline;
+	font-size: .75em;
+	text-align: center;
+	background-color: #DEDEE2;
+	background-size: cover;
+	align-items: center;
+	padding: 0px;
+	margin: 0px;
+}
+
+.title {
+	font-family: Brusher;
+	color: #3A3042;
+	text-align: center;
+	font-size: 5em;
+}
+.body {
+	display: none;
+}
+
+.positions {
+	flex: 1 1 auto;
+	align-items: center;
+}
+
+.right {
+	text-align: right;
+	margin-right: 50px;
+}
+
+canvas#tetris {
+	border: solid .5em #3A3042;
+	border-radius: 15px;
+	align-items: center;
+}
+
+
+.cajasLateral {
+	border: solid 1em #3A3042;
+	margin-bottom: 15px;
+	max-width: 100px;
+	border-radius: 15px;
+	background-color: #3A3042;
+}
+
+canvas#nextPiece {
+	border: solid .15em #8A878E;
+	shape-margin: 20px;
+	width: 80%;
+	align-items: center;
+}
+
+.cajaNext {
+	border: solid 1em #3A3042;
+	margin-bottom: 20px;
+	max-width: 100px;
+	border-radius: 15px;
+	background-color: #3A3042;
+
+}
+
+div.btn_group {
+	width: 100%;
+	max-width: 100px;
+}
+
+button {
+	width: 125px;
+	font-size: 1em;
+	font-family: Lato Hairline;
+	color: #DEDEE2;
+	background-color: #3A3042;
+	border: solid 1em #3A3042;
+	border-radius: 15px;
+}
+
+div.background_tetris {
+	position: absolute;
+	width: 100%;
+	height: 100vh;
+	background-color: rgba(0,0,0,0.4);
+}
+
+div.UI-Pauser {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 200px;
+	margin-left: -150px;
+	margin-top: 25px;
+	display: none;
+}
+
+div.UI-MainMenu {
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 300px;
+	height: 200px;
+	margin-left: -150px;
+	margin-top: 25px;
+}
